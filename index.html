@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vuelos</title>
+</head>
+<center><body><table width="100%" style="background-color: #EBEEF9;">
+        <tr><td colspan="5"><center><h1 style="color: #0B1847; font-family: Arial, Helvetica, sans-serif;">Empresa de vuelos</h1></center>
+    </td></tr><tr>
+        <td colspan="4">
+            <img src="logo.png" width="100px">
+        </td>
+        <td style="text-align: end;"><img src="../practica02/usuario.png" width="50px"><img src="busqueda.png" alt="" width="50px"></td>
+    </tr>
+    <tr style="background-color: #7587C0; text-align: center;font-family: Arial, Helvetica, sans-serif; " width="100%">
+        <td style="color: #EBEEF9;"><br><br>Inicio <br><br></td>
+        <td style="color: #EBEEF9;"><br><br>Servicios<br><br>
+        </td>
+        <td style="color: #EBEEF9;"><br><br>Proyectos<br><br></td>
+        <td style="color: #EBEEF9;"><br><br>Galeria<br><br></td>
+        <td style="color: #EBEEF9;"><br><br>Contactos<br><br></td>
+    <br><br><br></tr><br><br>
+    <tr>
+        <td colspan="5"width="40%">
+           <br><br><br> <marquee behavior="alternate"><img src="foto.jpg" alt="" height="200px" width="500px"><img src="alimentación.jpg" alt="" height="200px" width="500px"><img src="alojamiento.jpg" alt="" height="200px" width="500px"></font></h1></marquee>
+        <br><br><br></td>
+      </tr><tr>  <td colspan="5" style="font-family: Arial, Helvetica, sans-serif;">
+             <form>
+                <fieldset>
+                    <legend>INGRESA TUS DATOS PARA SEPARAR TU VIAJE</legend>
+                    <br><br><label for="name">Nombre</label>
+                    <br><br>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+                    <label for="email">Correo</label>
+                    <br><br>
+                    <input type="text" id="email" name="email">
+                    <br><br>
+                    <label for="pass">Contraseña</label>
+                    <br><br>
+                    <input type="text" id="pass" name="pass">
+                    <br><br>
+                    <label for="naci">Fecha de nacimiento</label>
+                    <br><br>
+                    <input type="date" id="naci" name="naci">
+                    <br><br>
+                    <label for="cv">Ingersa a donde deceas viajar</label>
+                    <br><br>
+                    <input type="text" id="cv" name="cv">
+                    <br><br>
+                    <label>Comentario</label>
+                    <br><br>
+                    <textarea name="comentario" id="comentario" cols="40" rows="5"></textarea>
+
+                    <br>
+                </fieldset>
+                <fieldset>
+
+                    <legend>Elige servicio</legend>
+                    <input type="radio" id="aloj" name="aloj">
+                    <label for="aloj">alojamiento</label><br>
+                    <br>
+                    <input type="radio" id="ali" name="ali">
+                    <label for="ali">Alimentación</label><br>
+                    <br>
+                    <input type="radio" id="tras" name="trans">
+                    <label for="trans">Transporte</label><br>
+                    <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Elige tipo de pago</legend>
+                    <select name="pago" id="pago"><br>
+                        <option value="contado">contado</option><br>
+                        <option value="credito">credito</option>
+                    </select>
+                    <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Satisfacción por la atención</legend>
+                    <input type="checkbox" id="bueno">
+                    <label for="bueno">Bueno</label>
+                    <br>
+                    <input type="checkbox" id="regular">
+                    <label for="regular">Regular</label>
+                    <br>
+                    <input type="checkbox" id="Malo">
+                    <label for="Malo">Malo</label>
+                    <br>
+                </fieldset>
+                <input type="submit" value="listo">
+                <br>
+                <input type="submit" value="borrar">
+        </td>
+        
+    </tr>
+    </table>
+</body></center>
+</html>
